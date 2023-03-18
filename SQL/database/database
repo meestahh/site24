@@ -1,0 +1,12 @@
+
+CREATE DATABASE cargo
+CREATE TABLE Cargo(
+id int (15) NOT NULL AUTO_INCREMENT,
+name_ varchar (255) NOT NULL,
+inside varchar (255) NOT NULL,
+city_first varchar (255) NOT NULL,
+city_last varchar (255) NOT NULL,
+date_first varchar (255) NOT NULL,
+data_last varchar (255) NOT NULL,
+PRIMARY KEY (id) )
+ENGINE = InnoDB DEFAULT CHARSET = UTF8mb4;
